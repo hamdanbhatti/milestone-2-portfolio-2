@@ -589,24 +589,22 @@ span {
 
 @keyframes fadeIn {
    from {
-     opacity: 0;
-     transform: translateY(20px);
+      opacity: 0;
+      transform: translateY(20px);
    }
    to {
-     opacity: 1;
-     transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
    }
- }
- 
- section {
+}
+
+section {
    animation: fadeIn 1s ease-out;
- }
- 
- .home,
- .about,
- .skills-section,
- .contact-form {
+}
+
+.home,
+.about,
+.skills-section,
+.contact-form {
    animation: fadeIn 1.2s ease-out;
- }
- 
- 
+}
